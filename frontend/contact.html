@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sihle Ntuli Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body class="">
+
+    <!-- Navbar -->
+    <nav class="navbar shadow-sm fixed-top border-bottom navbar-expand-md bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">NTULI<span  class="text-light bg-secondary">SS</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse justify-content-end navbar-collapse" id="navbarNav">
+        <ul class="text-center align-items-center navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./experience.html">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/views/education.html">Education </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./project.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./music.html">Extra-mural<br>Activities</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active"  aria-current="page" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+    <!-- Profile Summary -->
+    <div class="my-2 container d-flex justify-content-center vh-100">
+        <div class="mx-1 container d-flex align-items-center justify-content-end">
+            <div class="row">
+                <div class="col">
+                    <!--  -->
+                    <section id="contact" class="shadow-on-hover py-2 shadow border rounded">
+                        <div class="container">
+                            <div class="text-center mb-4">
+                                <h2 class="fw-bold">Contact Me</h2>
+                                <p class="text-muted">Feel free to reach out for engineering collaborations, deep learning projects, or professional opportunities.</p>
+                            </div>
+
+                            <div class="row justify-content-center">
+                                <div class="col">
+
+                                    <div class="card shadow-sm p-4 border-0 rounded-4">
+                                        <ul class="list-unstyled fs-5">
+                                            
+                                            <li class="mb-3">
+                                                <i class="fa-solid fa-envelope me-2"></i>
+                                                <strong>Email:</strong> sihlentuli49@gmail.com
+                                            </li>
+
+                                            <li class="mb-3">
+                                                <i class="fa-solid fa-phone me-2"></i>
+                                                <strong>Phone:</strong> +27 82 289 8210
+                                            </li>
+
+                                            <li class="mb-3">
+                                                <i class="fa-solid fa-location-dot me-2"></i>
+                                                <strong>Location:</strong> Johannesburg, South Africa
+                                            </li>
+
+                                            <li class="mb-3">
+                                                <i class="fa-brands fa-linkedin me-2"></i>
+                                                <strong>LinkedIn:</strong>
+                                                <a href="https://www.linkedin.com/in/sihle-sibusiso-ntuli-44599a88/" target="_blank">
+                                                    linkedin.com/in/sihle-ntuli
+                                                </a>
+                                            </li>
+
+                                            <li class="mb-3">
+                                                <i class="fa-brands fa-github me-2"></i>
+                                                <strong>GitHub:</strong>
+                                                <a href="https://github.com/SSNTULI" target="_blank">
+                                                    github.com/Sihle Ntuli
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--  -->
+                </div>
+            </div>
+        </div> 
+
+
+        <!--  -->
+
+        <div class="container  mx-5 d-none d-xl-flex align-items-center justify-content-start">
+            <div class="row ">
+                <div class="col">
+
+                    
+                    <form action="/send" method="POST" class="shadow-on-hover mb-3 rounded shadow">
+                        <div class="mx-3">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" id="contactorName" name="name" required>
+                        </div>
+
+                        <div class="mx-3">
+                            <label for="exampleFormControlInput1" class="form-label">Surname:</label>
+                            <input type="text" class="form-control" id="contactorSurname" name="surname" required>
+                        </div>
+
+                        <div class="mx-3">
+                            <label for="emailAdress" class="form-label">Email address:</label>
+                            <input type="email" class="form-control" id="contactorEmail" name="email" required>
+                        </div>
+
+                        <div class="mx-3 my-3 form-floating">
+                            <textarea class="form-control" id="contactorMessage" name="message" required></textarea>
+                            <label for="contactorMessage">Message</label>
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="mx-3 mb-2 btn btn-primary btn-sm d-flex justify-content-end" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                                <p class="mb-1 ">
+                                    <svg class="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                                    </svg>
+                                    Send
+                                </p>
+                            </button>
+                        </div>
+
+                    </form>
+                    <p class="text-success d-none notif" id="success-msg">Message sent sucessfully</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    
+    <footer class="footer bg-light fixed-bottom mt-5 pt-5">
+        <hr>
+        <p class="text-center fw-lighter "> © 2025 SS.Ntuli <a href="https://www.linkedin.com/in/sihle-sibusiso-ntuli-44599a88/"><i class="bi bi-linkedin"></i></a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="/js/index.js"></script>
+    <script src="/index.js"></script>
+
+</body>
+</html>
